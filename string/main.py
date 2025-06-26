@@ -1,7 +1,7 @@
 # Anthing enclosed in single(''), double("") and triple('''''') quotation marks is considered as String in python
 
 firstName = "Jatin"
-lastName = '''Munjal'''
+lastName = """Munjal"""
 designation = "Analyst"
 
 print(firstName + " " + lastName)
