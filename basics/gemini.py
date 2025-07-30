@@ -1,6 +1,10 @@
+import os
 from google import genai
 
-client = genai.Client(api_key="AIzaSyDil2NuAxj4jCsu_Mun-0TPl3R-BCsJpJY")
+api = os.environ.get("GEMINI_API_KEY")
+print(api)
+
+client = genai.Client()
 
 prompt = input()
 
